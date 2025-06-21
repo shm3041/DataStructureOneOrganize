@@ -19,24 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10완성_신한목_5763422_0327.c" />
-    <ClCompile Include="11완성_신한목_5763422_0327.c" />
-    <ClCompile Include="12완성_신한목_5763422_0401.c" />
-    <ClCompile Include="1완성_신한목_5763422_0311.c" />
-    <ClCompile Include="2완성_신한목_5763422_0313.c" />
-    <ClCompile Include="3완성_신한목_5763422_0313.c" />
-    <ClCompile Include="4완성_신한목_5763422_0318.c" />
-    <ClCompile Include="5완성_신한목_5763422_0318.c" />
-    <ClCompile Include="6완성_신한목_5763422_0320.c" />
-    <ClCompile Include="7완성_신한목_5763422_0320.c" />
-    <ClCompile Include="8완성_신한목_5763422_0325.c" />
-    <ClCompile Include="9완성_신한목_5763422_0325.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="stack.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stack.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{786cdbfb-511b-43d7-81b1-47dc2465bb01}</ProjectGuid>
-    <RootNamespace>Assignment1To12</RootNamespace>
+    <ProjectGuid>{25ddabac-7d8a-4a80-9424-7323f081dd42}</ProjectGuid>
+    <RootNamespace>Stack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
