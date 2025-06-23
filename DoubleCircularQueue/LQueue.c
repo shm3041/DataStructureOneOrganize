@@ -17,8 +17,10 @@ void enLQueue(QueueType* LQ, queueElement item) {
 }
 
 queueElement deLQueue(QueueType* LQ) {
-	if (!isLQueueEmepty(LQ))return deleteDClinkedList(LQ->rlink);
-	else return ('\0');
+	if (!isLQueueEmepty(LQ))
+		return deleteDClinkedList(LQ->rlink);
+	else
+		return ('\0');
 }
 
 int isLQueueEmepty(QueueType* LQ) {
