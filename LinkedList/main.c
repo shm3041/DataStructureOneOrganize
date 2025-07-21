@@ -15,7 +15,7 @@ int main() {
 	insertFirstNode(mylist, 50);
 	insertFirstNode(mylist, 40);
 	insertFirstNode(mylist, 30);
-	insertFirstNode(mylist, 20);e
+	insertFirstNode(mylist, 20);
 	insertFirstNode(mylist, 10);
 	insertFirstNode(mylist, 00);
 
